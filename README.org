@@ -1,0 +1,23 @@
+#+begin_src shell
+% cat distinct.txt
+A B C D E F G H I
+% java-algs4 Permutation 5 < distinct.txt
+A
+B
+C
+D
+E
+% java-algs4 Permutation 5 < distinct.txt
+D
+I
+C
+E
+B
+% java-algs4 Permutation 5 < distinct.txt
+B
+D
+H
+E
+C
+%
+#+end_src
